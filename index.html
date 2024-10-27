@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Natnael Samuel</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e3f5661114.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--------Header page------->
+
+    <div id="header">
+      <div class="container">
+        <nav>
+          <p class="nav-logo">Natnael<span class="nav-logo-color">.</span></p>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front-end Developer</p>
+          <h1>
+            Hi, I'm <span class="header-text-color">Natnael</span><br />From
+            Ethiopia
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!--------About me--------->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/logo.jpg" alt="A logo" />
+          </div>
+          <div class="about-col-2">
+            <h2 class="sub-title">About me</h2>
+            <p>
+              Hello, My name is Natnael Samuel, and I am a dedicated computer
+              science student from Addis Ababa, Ethiopia. I have a passion for
+              programming and am proficient in front-end development, as well as
+              UI and UX design. I enjoy creating intuitive and engaging user
+              experiences through my work, blending creativity with technical
+              expertise. My interest in technology drives me to stay updated on
+              the latest trends and tools in web development and design. Outside
+              of coding, I love exploring new technologies and collaborating on
+              projects that challenge my skills.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designer</li>
+                <li><span>Front-end</span><br />Developer</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Currently</span><br />a computer science student at
+                  Hawassa university
+                </li>
+                <li>
+                  <span>Freecodecamp</span><br />certificate of responsive web
+                  design
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>None currently</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------Services------>
+
+    <div id="Services">
+      <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-paintbrush"></i>
+            <h3>UI/UX Design</h3>
+            <p>
+              As a UI/UX designer, I create user-centered designs that enhance
+              engagement and usability. I focus on intuitive interfaces,
+              ensuring a seamless experience that meets both user needs and
+              business goals.
+            </p>
+            <a href="">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h3>Front-end Development</h3>
+            <p>
+              As a front-end developer, I craft responsive, visually appealing
+              websites that provide an exceptional user experience. I leverage
+              modern frameworks and technologies to deliver high-performance,
+              interactive solutions tailored to client needs.
+            </p>
+            <a href="">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------Projects----->
+
+    <div id="projects">
+      <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/demo1.png" alt="demo-picture" />
+            <div class="layer">
+              <h3>Demo 1</h3>
+              <p>
+                I have not yet completed any major projects; this serves as a
+                demo or placeholder.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/demo2.png" alt="demo-picture" />
+            <div class="layer">
+              <h3>Demo 2</h3>
+              <p>
+                I have not yet completed any major projects; this serves as a
+                demo or placeholder.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/demo3.png" alt="demo-picture" />
+            <div class="layer">
+              <h3>Demo 3</h3>
+              <p>
+                I have not yet completed any major projects; this serves as a
+                demo or placeholder.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="button">See more</a>
+      </div>
+    </div>
+
+    <!---------COntact------->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h2 class="sub-title">Contact Me</h2>
+            <p><i class="fa-solid fa-paper-plane"></i> natisami901@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +251941264520</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/nat_t_x/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://x.com/Natnael_sam"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://github.com/Natnaelsamuel"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="ghf" class="button button2" download>Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="button button2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; Natnael.</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwC236uKZ6PY62lAftwPB4DE48GoyxqaqAuU0fR3JMzvNIkDGfDk4RO9jUxffKCHkIQXA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
